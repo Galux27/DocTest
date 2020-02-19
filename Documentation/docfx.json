@@ -14,8 +14,8 @@
     ],
     "build": {
         "globalMetadata": {
-            "_appTitle": "Example Untation",
-            "_appFooter": "Example Untation",
+            "_appTitle": "Example Unity documentation",
+            "_appFooter": "Example Unity documentation",
             "_enableSearch": true
         },
         "content": [
@@ -40,7 +40,7 @@
         ],
         "sitemap":
         {
-            "baseUrl": "https://galux27.github.io/DocTest/",
+            "baseUrl": "https://galux27.github.io/DocTest",
             "changefreq": "weekly",
             "fileOptions": {
                 "api/*": {
