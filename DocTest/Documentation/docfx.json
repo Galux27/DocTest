@@ -40,7 +40,7 @@
         ],
         "sitemap":
         {
-            "baseUrl": "https://normanderwan.github.io/DocFxForUnity",
+            "baseUrl": "https://github.com/Galux27/DocTest",
             "changefreq": "weekly",
             "fileOptions": {
                 "api/*": {
