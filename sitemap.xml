@@ -1,20 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://galux27.github.io/DocTest/index.html</loc>
-    <lastmod>2020-02-19T03:03:16+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://galux27.github.io/DocTest/manual/coniunctis.html</loc>
-    <lastmod>2020-02-19T03:03:16+00:00</lastmod>
+    <lastmod>2020-02-19T03:16:47+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://galux27.github.io/DocTest/manual/etiam.html</loc>
-    <lastmod>2020-02-19T03:03:16+00:00</lastmod>
+    <lastmod>2020-02-19T03:16:47+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
