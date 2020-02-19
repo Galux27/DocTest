@@ -23,11 +23,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "IHD6rOaktGS+2V06MziVKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/coniunctis.md",
       "output": {
         ".html": {
           "relative_path": "manual/coniunctis.html",
-          "hash": "o+ARZ6P4jiCbo4Dq/oQqOw=="
+          "hash": "q8HaKsKkPjGXJAyLe3Ek7Q=="
         }
       },
       "is_incremental": false,
@@ -39,7 +51,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/etiam.html",
-          "hash": "FKjxBDdphC8v4TzFtQnYMg=="
+          "hash": "ZQpyhKYoV1MdU4Hj20lscg=="
         }
       },
       "is_incremental": false,
@@ -103,13 +115,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -120,7 +125,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
