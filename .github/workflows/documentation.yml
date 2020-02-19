@@ -21,7 +21,7 @@ jobs:
       - name: Build
         run: |
           copy "README.md" "Documentation/index.md"
-          docfx/docfx Documentation/docfx.json
+          docfx Documentation/docfx.json
 
       # Upload the generated documentation
       - name: Upload site artifact
