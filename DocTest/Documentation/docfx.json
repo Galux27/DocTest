@@ -40,7 +40,7 @@
         ],
         "sitemap":
         {
-            "baseUrl": "https://github.com/Galux27/DocTest",
+            "baseUrl": "https://galux27.github.io/DocTest/",
             "changefreq": "weekly",
             "fileOptions": {
                 "api/*": {
