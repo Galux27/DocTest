@@ -27,12 +27,12 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: site
-          path: _site # Must equals the 'build.dest' value on your docfx.json
+          path: https://galux27.github.io/DocTest/ # Must equals the 'build.dest' value on your docfx.json
 
   # Deploy the generated documentation to the gh-pages branch
   deploy:
     needs: build
-    runs-on: ubuntu-latest # Required by 'JamesIves/github-pages-deploy-action'
+    runs-on: windows-latest # Required by 'JamesIves/github-pages-deploy-action'
     steps:
       - name: Checkout
         uses: actions/checkout@v1
