@@ -20,6 +20,7 @@ jobs:
 
       - name: Build
         run: |
+   	copy README.md Documentation/index.md
           docfx Documentation/docfx.json
 
       # Upload the generated documentation
