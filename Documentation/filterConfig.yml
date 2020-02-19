@@ -3,9 +3,6 @@ apiRules:
     uidRegex: ^DocFxForUnity
     type: Namespace
 - include:
-    uidRegex: ^Test
-    type: Namespace
-- include:
     uidRegex: ^Global
     type: Namespace
 - exclude:
