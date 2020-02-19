@@ -1,0 +1,487 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFxForUnity.XrefMapReference
+  commentId: T:DocFxForUnity.XrefMapReference
+  id: XrefMapReference
+  parent: DocFxForUnity
+  children:
+  - DocFxForUnity.XrefMapReference.commentId
+  - DocFxForUnity.XrefMapReference.fullName
+  - DocFxForUnity.XrefMapReference.fullNameVb
+  - DocFxForUnity.XrefMapReference.href
+  - DocFxForUnity.XrefMapReference.isSpec
+  - DocFxForUnity.XrefMapReference.name
+  - DocFxForUnity.XrefMapReference.nameVb
+  - DocFxForUnity.XrefMapReference.nameWithType
+  - DocFxForUnity.XrefMapReference.nameWithTypeVb
+  - DocFxForUnity.XrefMapReference.TryFixHref(System.String)
+  - DocFxForUnity.XrefMapReference.uid
+  langs:
+  - csharp
+  - vb
+  name: XrefMapReference
+  nameWithType: XrefMapReference
+  fullName: DocFxForUnity.XrefMapReference
+  type: Class
+  source:
+    id: XrefMapReference
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 9
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  summary: "\nRepresents a reference item on a <xref href=\"DocFxForUnity.XrefMap\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: 'public sealed class XrefMapReference : object'
+    content.vb: >-
+      Public NotInheritable Class XrefMapReference
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: DocFxForUnity.XrefMapReference.uid
+  commentId: P:DocFxForUnity.XrefMapReference.uid
+  id: uid
+  parent: DocFxForUnity.XrefMapReference
+  langs:
+  - csharp
+  - vb
+  name: uid
+  nameWithType: XrefMapReference.uid
+  fullName: DocFxForUnity.XrefMapReference.uid
+  type: Property
+  source:
+    id: uid
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 21
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  syntax:
+    content: public string uid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property uid As String
+  overload: DocFxForUnity.XrefMapReference.uid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DocFxForUnity.XrefMapReference.name
+  commentId: P:DocFxForUnity.XrefMapReference.name
+  id: name
+  parent: DocFxForUnity.XrefMapReference
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: XrefMapReference.name
+  fullName: DocFxForUnity.XrefMapReference.name
+  type: Property
+  source:
+    id: name
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 23
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  syntax:
+    content: public string name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property name As String
+  overload: DocFxForUnity.XrefMapReference.name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DocFxForUnity.XrefMapReference.nameVb
+  commentId: P:DocFxForUnity.XrefMapReference.nameVb
+  id: nameVb
+  parent: DocFxForUnity.XrefMapReference
+  langs:
+  - csharp
+  - vb
+  name: nameVb
+  nameWithType: XrefMapReference.nameVb
+  fullName: DocFxForUnity.XrefMapReference.nameVb
+  type: Property
+  source:
+    id: nameVb
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 25
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  syntax:
+    content: public string nameVb { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property nameVb As String
+  overload: DocFxForUnity.XrefMapReference.nameVb*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DocFxForUnity.XrefMapReference.href
+  commentId: P:DocFxForUnity.XrefMapReference.href
+  id: href
+  parent: DocFxForUnity.XrefMapReference
+  langs:
+  - csharp
+  - vb
+  name: href
+  nameWithType: XrefMapReference.href
+  fullName: DocFxForUnity.XrefMapReference.href
+  type: Property
+  source:
+    id: href
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 28
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  syntax:
+    content: public string href { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property href As String
+  overload: DocFxForUnity.XrefMapReference.href*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DocFxForUnity.XrefMapReference.commentId
+  commentId: P:DocFxForUnity.XrefMapReference.commentId
+  id: commentId
+  parent: DocFxForUnity.XrefMapReference
+  langs:
+  - csharp
+  - vb
+  name: commentId
+  nameWithType: XrefMapReference.commentId
+  fullName: DocFxForUnity.XrefMapReference.commentId
+  type: Property
+  source:
+    id: commentId
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 30
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  syntax:
+    content: public string commentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property commentId As String
+  overload: DocFxForUnity.XrefMapReference.commentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DocFxForUnity.XrefMapReference.isSpec
+  commentId: P:DocFxForUnity.XrefMapReference.isSpec
+  id: isSpec
+  parent: DocFxForUnity.XrefMapReference
+  langs:
+  - csharp
+  - vb
+  name: isSpec
+  nameWithType: XrefMapReference.isSpec
+  fullName: DocFxForUnity.XrefMapReference.isSpec
+  type: Property
+  source:
+    id: isSpec
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 32
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  syntax:
+    content: public string isSpec { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property isSpec As String
+  overload: DocFxForUnity.XrefMapReference.isSpec*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DocFxForUnity.XrefMapReference.fullName
+  commentId: P:DocFxForUnity.XrefMapReference.fullName
+  id: fullName
+  parent: DocFxForUnity.XrefMapReference
+  langs:
+  - csharp
+  - vb
+  name: fullName
+  nameWithType: XrefMapReference.fullName
+  fullName: DocFxForUnity.XrefMapReference.fullName
+  type: Property
+  source:
+    id: fullName
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 34
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  syntax:
+    content: public string fullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property fullName As String
+  overload: DocFxForUnity.XrefMapReference.fullName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DocFxForUnity.XrefMapReference.fullNameVb
+  commentId: P:DocFxForUnity.XrefMapReference.fullNameVb
+  id: fullNameVb
+  parent: DocFxForUnity.XrefMapReference
+  langs:
+  - csharp
+  - vb
+  name: fullNameVb
+  nameWithType: XrefMapReference.fullNameVb
+  fullName: DocFxForUnity.XrefMapReference.fullNameVb
+  type: Property
+  source:
+    id: fullNameVb
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 36
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  syntax:
+    content: public string fullNameVb { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property fullNameVb As String
+  overload: DocFxForUnity.XrefMapReference.fullNameVb*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DocFxForUnity.XrefMapReference.nameWithType
+  commentId: P:DocFxForUnity.XrefMapReference.nameWithType
+  id: nameWithType
+  parent: DocFxForUnity.XrefMapReference
+  langs:
+  - csharp
+  - vb
+  name: nameWithType
+  nameWithType: XrefMapReference.nameWithType
+  fullName: DocFxForUnity.XrefMapReference.nameWithType
+  type: Property
+  source:
+    id: nameWithType
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 39
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  syntax:
+    content: public string nameWithType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property nameWithType As String
+  overload: DocFxForUnity.XrefMapReference.nameWithType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DocFxForUnity.XrefMapReference.nameWithTypeVb
+  commentId: P:DocFxForUnity.XrefMapReference.nameWithTypeVb
+  id: nameWithTypeVb
+  parent: DocFxForUnity.XrefMapReference
+  langs:
+  - csharp
+  - vb
+  name: nameWithTypeVb
+  nameWithType: XrefMapReference.nameWithTypeVb
+  fullName: DocFxForUnity.XrefMapReference.nameWithTypeVb
+  type: Property
+  source:
+    id: nameWithTypeVb
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 41
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  syntax:
+    content: public string nameWithTypeVb { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property nameWithTypeVb As String
+  overload: DocFxForUnity.XrefMapReference.nameWithTypeVb*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DocFxForUnity.XrefMapReference.TryFixHref(System.String)
+  commentId: M:DocFxForUnity.XrefMapReference.TryFixHref(System.String)
+  id: TryFixHref(System.String)
+  parent: DocFxForUnity.XrefMapReference
+  langs:
+  - csharp
+  - vb
+  name: TryFixHref(String)
+  nameWithType: XrefMapReference.TryFixHref(String)
+  fullName: DocFxForUnity.XrefMapReference.TryFixHref(System.String)
+  type: Method
+  source:
+    id: TryFixHref
+    path: C:\UnityProjects\DocumentationGenTest\UnityXrefMaps\XrefMapReference.cs
+    startLine: 49
+  assemblies:
+  - Generate
+  namespace: DocFxForUnity
+  summary: "\nSet <xref href=\"DocFxForUnity.XrefMapReference.href\" data-throw-if-not-resolved=\"false\"></xref> to link to the online API documentation of Unity.\n"
+  example: []
+  syntax:
+    content: public bool TryFixHref(string apiUrl = null)
+    parameters:
+    - id: apiUrl
+      type: System.String
+      description: The URL of the online API documentation of Unity.
+    return:
+      type: System.Boolean
+      description: If this reference is valid or not.
+    content.vb: Public Function TryFixHref(apiUrl As String = Nothing) As Boolean
+  overload: DocFxForUnity.XrefMapReference.TryFixHref*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DocFxForUnity.XrefMap
+  commentId: T:DocFxForUnity.XrefMap
+  name: XrefMap
+  nameWithType: XrefMap
+  fullName: DocFxForUnity.XrefMap
+- uid: DocFxForUnity
+  commentId: N:DocFxForUnity
+  name: DocFxForUnity
+  nameWithType: DocFxForUnity
+  fullName: DocFxForUnity
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DocFxForUnity.XrefMapReference.uid*
+  commentId: Overload:DocFxForUnity.XrefMapReference.uid
+  name: uid
+  nameWithType: XrefMapReference.uid
+  fullName: DocFxForUnity.XrefMapReference.uid
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DocFxForUnity.XrefMapReference.name*
+  commentId: Overload:DocFxForUnity.XrefMapReference.name
+  name: name
+  nameWithType: XrefMapReference.name
+  fullName: DocFxForUnity.XrefMapReference.name
+- uid: DocFxForUnity.XrefMapReference.nameVb*
+  commentId: Overload:DocFxForUnity.XrefMapReference.nameVb
+  name: nameVb
+  nameWithType: XrefMapReference.nameVb
+  fullName: DocFxForUnity.XrefMapReference.nameVb
+- uid: DocFxForUnity.XrefMapReference.href*
+  commentId: Overload:DocFxForUnity.XrefMapReference.href
+  name: href
+  nameWithType: XrefMapReference.href
+  fullName: DocFxForUnity.XrefMapReference.href
+- uid: DocFxForUnity.XrefMapReference.commentId*
+  commentId: Overload:DocFxForUnity.XrefMapReference.commentId
+  name: commentId
+  nameWithType: XrefMapReference.commentId
+  fullName: DocFxForUnity.XrefMapReference.commentId
+- uid: DocFxForUnity.XrefMapReference.isSpec*
+  commentId: Overload:DocFxForUnity.XrefMapReference.isSpec
+  name: isSpec
+  nameWithType: XrefMapReference.isSpec
+  fullName: DocFxForUnity.XrefMapReference.isSpec
+- uid: DocFxForUnity.XrefMapReference.fullName*
+  commentId: Overload:DocFxForUnity.XrefMapReference.fullName
+  name: fullName
+  nameWithType: XrefMapReference.fullName
+  fullName: DocFxForUnity.XrefMapReference.fullName
+- uid: DocFxForUnity.XrefMapReference.fullNameVb*
+  commentId: Overload:DocFxForUnity.XrefMapReference.fullNameVb
+  name: fullNameVb
+  nameWithType: XrefMapReference.fullNameVb
+  fullName: DocFxForUnity.XrefMapReference.fullNameVb
+- uid: DocFxForUnity.XrefMapReference.nameWithType*
+  commentId: Overload:DocFxForUnity.XrefMapReference.nameWithType
+  name: nameWithType
+  nameWithType: XrefMapReference.nameWithType
+  fullName: DocFxForUnity.XrefMapReference.nameWithType
+- uid: DocFxForUnity.XrefMapReference.nameWithTypeVb*
+  commentId: Overload:DocFxForUnity.XrefMapReference.nameWithTypeVb
+  name: nameWithTypeVb
+  nameWithType: XrefMapReference.nameWithTypeVb
+  fullName: DocFxForUnity.XrefMapReference.nameWithTypeVb
+- uid: DocFxForUnity.XrefMapReference.href
+  commentId: P:DocFxForUnity.XrefMapReference.href
+  isExternal: true
+- uid: DocFxForUnity.XrefMapReference.TryFixHref*
+  commentId: Overload:DocFxForUnity.XrefMapReference.TryFixHref
+  name: TryFixHref
+  nameWithType: XrefMapReference.TryFixHref
+  fullName: DocFxForUnity.XrefMapReference.TryFixHref
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
