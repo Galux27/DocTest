@@ -2,7 +2,6 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://galux27.github.io/DocTest/",
         "changefreq": "daily"
       }
     },
@@ -23,48 +22,12 @@
       "is_incremental": false
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.TestScript.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.TestScript.html",
-          "hash": "kwfE1LZhzngtuammlRI8OA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.html",
-          "hash": "b6azLsgT4vyf0RgBuITZGg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "MZ2MNsOzMzb5AUMHHM1jUA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "2bBRW7FWSqbx7pLpfycgPw=="
+          "hash": "FgjCiDYdsxnOm9yBmpTUxw=="
         }
       },
       "is_incremental": false,
@@ -76,7 +39,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/coniunctis.html",
-          "hash": "VDPV1SwYeRb0DgjtiZy9jw=="
+          "hash": "hkPcrLefe4OTiKlw7RyQWw=="
         }
       },
       "is_incremental": false,
@@ -88,7 +51,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/etiam.html",
-          "hash": "+wqDHDQ1q++GVVlAd1XNWg=="
+          "hash": "vYWu/yNxR0CSjBVyv0ETcA=="
         }
       },
       "is_incremental": false,
@@ -134,7 +97,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "M8FaMcuvInEzB8I/V171Sg=="
+          "hash": "IcPrG9Oxm9xZ4pP6LKAnqQ=="
         }
       },
       "is_incremental": false,
@@ -157,12 +120,6 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
